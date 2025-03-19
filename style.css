@@ -45,7 +45,7 @@ body{
     flex-direction: column;
     align-self: center;
     background-color: white;
-    width: clamp(10vw, 80%, 40vw);
+    max-width: 560px;
     border-radius: 10px;
 }
 
@@ -59,11 +59,22 @@ header > p{
     font-family: "work-sans-bold";
 }
 
-h1{
+summary {
     display: flex;
+    justify-content: space-between;
 }
-h1 > p{
+summary > img{
+    max-width: 64px;
+} 
 
+details > summary{
+    list-style: none;
+    background-image: url('/assets/images/icon-plus.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+details > summary:focus, details > summary:hover{
+    background-image: url('/assets/images/icon-minus.svg');
 }
 
 @media (min-width: 320px) and (orientation: portrait){
@@ -73,7 +84,7 @@ h1 > p{
         background-size: 100vw;
     }
     .divMain{
-        width: clamp(10vw, 80%, 80%);
+        width: clamp(10vw, 90%, 90%);
     }
     
 }
