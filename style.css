@@ -83,7 +83,7 @@ details{
 }
 
 details > summary{
-    background-image: url('./assets/images/icon-plus.svg');
+    background-image: url("./assets/images/icon-plus.svg");
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -98,7 +98,7 @@ details > div{
 @media (min-width: 319px) and (orientation: portrait){
     body{
         margin: 0;
-        background-image: url("/assets/images/background-pattern-mobile.svg");
+        background-image: url("./assets/images/background-pattern-mobile.svg");
         background-size: 100vw;
     }
     .divMain{
