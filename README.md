@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/Calandda/FAQ-Accordion-Main-FrontendMentor)
-- Live Site URL: [Github Pages](https://your-live-site-url.com)
+- Live Site URL: [Github Pages](https://calandda.github.io/FAQ-Accordion-Main-FrontendMentor/)
 
 ## My process
 

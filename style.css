@@ -40,7 +40,7 @@ body{
     padding: 0;
     height: 100%;
     background-color: hsl(275,100%,97%);
-    background-image: url("/assets/images/background-pattern-desktop.svg");
+    background-image: url("./assets/images/background-pattern-desktop.svg");
     background-size: 1440px;
     background-repeat: no-repeat;
     background-position: top center;
