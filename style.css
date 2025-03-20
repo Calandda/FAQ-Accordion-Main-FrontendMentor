@@ -27,6 +27,7 @@
 
 html{
     overflow-y: scroll;
+    height: 100%;
 }
 
 body{
@@ -34,17 +35,16 @@ body{
     font-family: "work-sans-regular";
     flex-direction: column;
     align-items: center;
-    width: 100vw;
-    height: 50vw;
+    justify-content: space-evenly;
     margin: 0;
+    padding: 0;
+    height: 100%;
     background-color: hsl(275,100%,97%);
     background-image: url("/assets/images/background-pattern-desktop.svg");
     background-size: 1440px;
     background-repeat: no-repeat;
     background-position: top center;
     font-size: 16px;
-    gap: 3rem;
-    margin-top: 20vh;
 }
 
 .divMain{
@@ -79,6 +79,7 @@ summary {
 
 details{
     padding-bottom: 20px;
+    padding-top: 1rem;
 }
 
 details > summary{
@@ -94,15 +95,14 @@ details > div{
     padding-bottom: 1rem;
 }
 
-@media (min-width: 320px) and (orientation: portrait){
+@media (min-width: 319px) and (orientation: portrait){
     body{
         margin: 0;
         background-image: url("/assets/images/background-pattern-mobile.svg");
         background-size: 100vw;
     }
     .divMain{
-        width: clamp(10vw, 67vw, 67vw);
-        margin-top: 40vw;
+        width: clamp(10px, 67vw, 67vw);        
     }
     
 }
