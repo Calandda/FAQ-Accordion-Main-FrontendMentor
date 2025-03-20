@@ -89,6 +89,10 @@ details > summary{
 details > summary:hover{
     color: hsl(292,16%,49%);
 }
+details > div{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
 
 @media (min-width: 320px) and (orientation: portrait){
     body{
